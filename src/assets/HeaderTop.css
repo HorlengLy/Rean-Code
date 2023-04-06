@@ -1,0 +1,25 @@
+.text-animation-cover{
+    position: relative;
+    overflow: hidden;
+}
+#text-animation::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+    border-left: 5px solid rgb(161, 147, 13);
+    animation: text-animation 4s steps(10) infinite;
+}
+
+
+@keyframes text-animation {
+    40%,60%{
+        left: 100%;
+    }
+    100%{
+        left: 0;
+    }
+}

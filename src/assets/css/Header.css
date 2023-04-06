@@ -1,0 +1,10 @@
+@media screen and (max-width: 1023px) {
+    .router-link-active li{
+        background: rgb(209 213 219 / var(--tw-bg-opacity));
+    }
+}
+@media screen and (min-width:1024px) {
+    .router-link-active li{
+        color: red;
+    }
+}
