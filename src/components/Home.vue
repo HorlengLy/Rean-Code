@@ -3,7 +3,7 @@
         <div class="xl:w-[70%] md:w-[80%] w-[90%] mx-auto py-8 lg:py-20 lg:flex">
             <div class="flex-1 flex flex-col items-center gap-5">
                 <span id="text-cover" class="p-3 overflow-hidden bg-black z-[0] rounded-lg border-none">
-                    <span id="text" class="lg:text-2xl text-lg font-Bokor text-blue-500">
+                    <span id="text" class="lg:text-2xl sm:text-lg text-lg font-Bokor text-blue-500">
                         ស្វាគមន៏មកកាន់គេហទំព័ររៀនកូដដោយអត់គិតថ្លៃ
                     </span>
                 </span>

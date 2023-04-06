@@ -3,7 +3,7 @@
     defineProps(['subNav'])
 </script>
 <template>
-    <div class="flex items-center md:gap-20 gap-10 bg-white py-2 md:px-[120px] px-[30px]">
+    <div class="flex items-center md:gap-20 gap-10 bg-white py-2 lg:px-[70px] px-[30px]">
         <div @click="subNav" class="cursor-pointer">
             <font-awesome-icon :icon="['fas', 'bars']" size="xl" />
         </div>

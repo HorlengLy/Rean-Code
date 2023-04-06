@@ -1,5 +1,5 @@
 <script setup>
-    import "../assets/HeaderTop.css";
+    import "../assets/css/HeaderTop.css";
     const changeText = ()=>{
         setTimeout(()=>{
             document.querySelector('#text-animation').textContent = "តោះរៀនកូដដោយអត់គិតថ្លៃ";
