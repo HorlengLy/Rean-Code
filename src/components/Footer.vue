@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white lg:px-[100px] md:px-[50px] sm:px-[30px] px-[10px] lg:py-3 py-10 flex items-center justify-between">
+    <div class="bg-white lg:px-[100px] md:px-[50px] sm:px-[30px] px-[10px] lg:py-10 py-5 flex items-center justify-between">
         <div class="flex-[0.5] flex flex-col justify-center">
             <span class="font-kh_2 tracking-widest text-lg text-blue-600">
                     រៀនកូដ

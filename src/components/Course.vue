@@ -9,24 +9,30 @@
     <div class="mt-3">
         <span class="text-sky-500 pl-[15px]">Basic Web Development</span>
         <ul>
-            <li class="py-2 p-[40px] cursor-pointer border-y transition-all duration-200">
-                <span   class="flex justify-between items-center hover:text-green-600">
-                    HTML
-                    <font-awesome-icon :icon="['fas', 'angle-right']" size="sm" id="html-icon"/>
-                </span>
-            </li>
-            <li class="py-2 p-[40px] cursor-pointer border-y transition-all duration-200">
-                <span class="flex justify-between items-center hover:text-green-600">
-                    CSS
-                    <font-awesome-icon :icon="['fas', 'angle-right']" size="sm" id="css-icon"/>
-                </span>
-            </li>
-            <li class="py-2 p-[40px] cursor-pointer border-y transition-all duration-200">
-                <span class="flex justify-between items-center hover:text-green-600">
-                    JavaScript
-                    <font-awesome-icon :icon="['fas', 'angle-right']" size="sm" id="js-icon"/>
-                </span>
-            </li>
+            <router-link to="/lessons/html">
+                <li class="py-2 p-[40px] cursor-pointer border-y transition-all duration-200">
+                    <span   class="flex justify-between items-center hover:text-green-600">
+                        HTML
+                        <font-awesome-icon :icon="['fas', 'angle-right']" size="sm" id="html-icon"/>
+                    </span>
+                </li>
+            </router-link>
+            <router-link to="/lessons/html">
+                <li class="py-2 p-[40px] cursor-pointer border-y transition-all duration-200">
+                    <span   class="flex justify-between items-center hover:text-green-600">
+                        CSS
+                        <font-awesome-icon :icon="['fas', 'angle-right']" size="sm" id="html-icon"/>
+                    </span>
+                </li>
+            </router-link>
+            <router-link to="/lessons/html">
+                <li class="py-2 p-[40px] cursor-pointer border-y transition-all duration-200">
+                    <span   class="flex justify-between items-center hover:text-green-600">
+                        JAVASCRIPTS
+                        <font-awesome-icon :icon="['fas', 'angle-right']" size="sm" id="html-icon"/>
+                    </span>
+                </li>
+            </router-link>
         </ul>
     </div>
 

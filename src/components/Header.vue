@@ -43,7 +43,7 @@
                         <font-awesome-icon :icon="['fas', 'house-chimney-user']" size="lg" class="2xl:block lg:hidden block"/>ទំព័រដើម
                     </li>
                 </router-link>
-                <router-link :to="{name:'lesson'}">
+                <router-link :to="{name:'lesson.indroducts'}">
                     <li @click="showNav" class="font-kh_1 flex items-center lg:gap-2 gap-6 lg:px-0 px-10  py-2 cursor-pointer lg:hover:text-red-600 transition-all duration-200 lg:hover:bg-white hover:bg-gray-300">
                         <font-awesome-icon :icon="['fas', 'book']" size="lg"  class="2xl:block lg:hidden block"/>មេរៀន
                     </li>

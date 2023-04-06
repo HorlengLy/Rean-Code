@@ -4,42 +4,47 @@ const routes = [
     {
         path:'/',
         name:'home',
-        component:()=> import("@/components/Home.vue")
+        component:()=> import("@/Views/Home.vue")
     },
     {
         path:'/pratices',
         name:'pratice',
-        component:()=> import("@/components/Pratice.vue")
+        component:()=> import("@/Views/Pratice.vue")
     },
     {
         path:'/contact',
         name:'contact',
-        component:()=> import("@/components/Contact.vue")
+        component:()=> import("@/Views/Contact.vue")
     },
     {
         path:'/roadmap',
         name:'roadmap',
-        component:()=> import("@/components/Roadmap.vue")
+        component:()=> import("@/Views/Roadmap.vue")
     },
     {
         path:'/support',
         name:'support',
-        component:()=> import("@/components/Support.vue")
+        component:()=> import("@/Views/Support.vue")
     },
     {
         path:'/about_us',
         name:'about',
-        component:()=> import("@/components/AboutUs.vue")
+        component:()=> import("@/Views/AboutUs.vue")
     },
     {
         path:'/lessons',
         name:'lesson',
-        component:()=> import("@/components/Lesson.vue"),
+        component:()=> import("@/Views/Lesson.vue"),
         children:[
             {
-                path:'subject/:id',
-                name:'subject',
-                component:()=> import("@/components/StartCourse.vue"),
+                path:'',
+                name:'lesson.indroducts',
+                component:()=> import("@/components/LessonIntro.vue"),
+            },
+            {
+                path:':subject',
+                name:'lesson.subject',
+                component:()=> import("@/components/LessonContain.vue"),
             }
         ]
     }

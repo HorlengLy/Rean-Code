@@ -5,7 +5,7 @@
       <Header />
     </div>
     <div class="pt-[8vh] py-4">
-      <RouterView />
+      <RouterView></RouterView>
     </div>
     <Footer />
   </div>
